@@ -9,4 +9,4 @@ repos:
     rev: 0.9.1
     hooks:
       - id: sqlfluff-fix
-        args: [--rules, "layout"]
+        args: [--rules, "layout,structure,convention"]

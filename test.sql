@@ -1,2 +1,4 @@
-SELECT ID,TABLE_NAME FROM TABLE WHERE ID = 0
-;
+SELECT
+    a + 
+    b as summa
+FROM foo
