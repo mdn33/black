@@ -1,4 +1,2 @@
-SELECT id,
-       product
-FROM   table
+SELECT id,product FROM   table
 WHERE  id = 0;
