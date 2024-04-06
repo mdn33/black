@@ -18,4 +18,5 @@ x = [
 
 y = [[1, 2, 3], [4, 5, 6]]
 
-if len(x) > 0: print('failed')
+if len(x) > 0:
+    print("failed")
