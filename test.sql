@@ -1,4 +1,2 @@
-SELECT
-    a + 
-    b as summa
+SELECT a + b AS summad
 FROM foo
