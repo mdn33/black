@@ -4,3 +4,8 @@ repos:
     rev: 24.3.0
     hooks:
       - id: black
+
+  - repo: https://github.com/PabloRMira/sql_formatter
+    rev: master
+    hooks:
+      - id: sql_formatter
