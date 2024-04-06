@@ -9,4 +9,4 @@ repos:
     rev: 0.9.1
     hooks:
       - id: sqlfluff-fix
-        args: [--rules, "LT02,CP02"]
+        args: [--rules, "core"]
