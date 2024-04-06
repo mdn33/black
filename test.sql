@@ -1,2 +1,4 @@
-SELECT id,product FROM   table
-WHERE  id = 0;
+SELECT
+    ID,
+    TABLE_NAME
+FROM TABLE WHERE ID = 0 AND ZIO_PERA = 0;
