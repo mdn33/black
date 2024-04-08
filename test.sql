@@ -1,3 +1,4 @@
-SELECT a + b AS summad
-FROM foo
-WHERE sssssssssssssssssssssssss = 0 AND a = 'aaaaaaaaaaaaaaaaaaaaaaaaaa'
+SELECT
+    c AS bar,
+    a + b AS foo
+FROM my_table
