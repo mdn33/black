@@ -11,5 +11,5 @@ repos:
       # - id: sqlfluff-lint
       #   args: [--config, 'sqlfluff.cfg']
       - id: sqlfluff-fix
-        args: [--config, 'sqlfluff.cfg', --rules, 'LT02,LT12,ST06,LT09,LT01']
+        args: [--config, 'sqlfluff.cfg', --rules, 'LT02,LT12,CP01,ST06,LT09,LT01']
         
