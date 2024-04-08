@@ -6,7 +6,9 @@ repos:
       - id: black
 
   - repo: https://github.com/sqlfluff/sqlfluff
-    rev: 0.9.1
+    rev: 1.4.5
     hooks:
+      - id: sqlfluff-lint
+        args: [--config, 'C:\Users\m.dinepi\a2a\project\black\sqlfluff.cfg']
       - id: sqlfluff-fix
         args: [--config, 'C:\Users\m.dinepi\a2a\project\black\sqlfluff.cfg']
