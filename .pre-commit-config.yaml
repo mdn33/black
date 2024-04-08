@@ -8,6 +8,5 @@ repos:
   - repo: https://github.com/sqlfluff/sqlfluff
     rev: 0.9.1
     hooks:
-      - id: sqlfluff-lint
       - id: sqlfluff-fix
-        args: [--config, .sqlfluff]
+        args: [--config, 'C:\Users\m.dinepi\a2a\project\black\sqlfluff.cfg']
