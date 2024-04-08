@@ -10,4 +10,4 @@ repos:
     hooks:
       - id: sqlfluff-lint
       - id: sqlfluff-fix
-        args: [--config, ".sqlfluff"]
+        args: ['--config', '.sqlfluff']
