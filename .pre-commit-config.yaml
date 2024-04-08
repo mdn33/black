@@ -8,8 +8,6 @@ repos:
   - repo: https://github.com/sqlfluff/sqlfluff
     rev: 1.4.5
     hooks:
-      # - id: sqlfluff-lint
-      #   args: [--config, 'sqlfluff.cfg']
       - id: sqlfluff-fix
-        args: [--config, 'sqlfluff.cfg', --rules, 'ffLT02,LT12,CP01,ST06,LT09,LT01']
+        args: [--config, 'sqlfluff.cfg']
         
