@@ -1,4 +1,4 @@
-select
-    c as bar,
-    a + b as foo
-from my_table
+SELECT
+    c AS bar,
+    a + b AS foo
+FROM my_table
